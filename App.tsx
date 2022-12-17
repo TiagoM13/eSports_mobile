@@ -18,6 +18,7 @@ export default function App() {
     Inter_700Bold,
     Inter_900Black
   })
+
   return (
     <Background>
       <StatusBar
