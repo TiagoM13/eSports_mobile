@@ -1,3 +1,3 @@
 export const API_URL = {
-  IP: ""
+  IP: "" // use your notebook IP
 }
