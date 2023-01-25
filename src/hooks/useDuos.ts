@@ -1,7 +1,10 @@
 import { useRoute } from "@react-navigation/native";
 import { useEffect, useState } from "react";
+
 import { GameParams } from "../@types/navigation";
-import { DuoCardProps } from "../components/DuoCard";
+
+import { DuoCardProps } from "../interfaces/duoCard";
+
 import { API_URL } from "../services/api";
 
 export const useDuos = () => {

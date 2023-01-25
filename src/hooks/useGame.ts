@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { GameCardProps } from "../components/GameCard";
+import { GameCardProps } from "../interfaces/gameCard";
 
 import { API_URL } from "../services/api";
 

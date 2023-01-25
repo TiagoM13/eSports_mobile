@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 
-import { GameCardProps } from "../components/GameCard";
+import { GameCardProps } from "../interfaces/gameCard";
 
 export const useNativeRoutes = () => {
   const navigation = useNavigation();

@@ -1,13 +1,9 @@
-import { View, Text, ViewProps } from 'react-native';
+import { View, Text } from 'react-native';
+import { IHeading } from '../../interfaces/heading';
 
 import { styles } from './styles';
 
-interface Props extends ViewProps {
-  title: string;
-  subtitle: string;
-}
-
-export function Heading({ title, subtitle, ...rest }: Props) {
+export function Heading({ title, subtitle, ...rest }: IHeading) {
   return (
     <View style={styles.container} {...rest}>
       <Text style={styles.title} >

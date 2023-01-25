@@ -1,19 +1,18 @@
 import { useState } from 'react';
-import { View, Modal, ModalProps, Text, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
+import { View, Modal, Text, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { CheckCircle } from 'phosphor-react-native';
 import * as Clipboard from 'expo-clipboard';
 
-import { THEME } from '../../theme';
-import { styles } from './styles';
 import { Heading } from '../Heading';
 
-interface Props extends ModalProps {
-  discord: string;
-  onClose: () => void;
-}
+import { IDuoMatch } from '../../interfaces/duoMatch';
 
-export function DuoMatch({ discord, onClose, ...rest }: Props) {
+import { THEME } from '../../theme';
+
+import { styles } from './styles';
+
+export function DuoMatch({ discord, onClose, ...rest }: IDuoMatch) {
   const [isCopping, setIsCopping] = useState(false);
 
   async function handleCopyDiscordToClipboard() {
