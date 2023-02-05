@@ -9,10 +9,10 @@ Está aplicação foi construida utilizando diversas bibliotecas conhecidas no m
   Imagens do layout da aplicação:
 
   <div>
-    <img width="180px" height="300px" src="./assets/screen_splash.jpeg" alt="Splash" />
-    <img width="180px" height="300px" src="./assets/screen_home.jpeg" alt="Tela Inicial" />
-    <img width="180px" height="300px" src="./assets/screen_card.jpeg" alt="Tela de anúcio selecionado" />
-    <img width="180px" height="300px" src="./assets/screen_dicordId.jpeg" alt="Modal com discord ID" />
+    <img width="160px" height="300px" src="./assets/screen_splash.jpeg" alt="Splash" />
+    <img width="160px" height="300px" src="./assets/screen_home.jpeg" alt="Tela Inicial" />
+    <img width="160px" height="300px" src="./assets/screen_card.jpeg" alt="Tela de anúcio selecionado" />
+    <img width="160px" height="300px" src="./assets/screen_dicordId.jpeg" alt="Modal com discord ID" />
   </div>
 
 ## 🛠️ Ferramentas Utilizadas
